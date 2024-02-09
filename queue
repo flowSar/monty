@@ -1,0 +1,9 @@
+
+
+
+	instruction_t queue_functions[] = {
+		{"q_push", q_push}, {"q_pall", q_pall}, {"q_pop", q_pop}, {"q_pint", q_pint},
+		{"q_pop", pop}, {"q_swap", q_swap}, {"q_add", add}, {"q_nop", q_nop},
+		{"q_sub", sub}, {"q_div", q_div_fu}, {"q_mul", mul}, {"q_mod", q_mod},
+		{"q_pchar", pchar}, {NULL, NULL}
+	}; 
